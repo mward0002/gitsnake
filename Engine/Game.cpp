@@ -32,6 +32,7 @@ Game::Game( MainWindow& wnd )
 	snek({ 5,5 }),
 	rng( std::random_device()()),
 	goal(rng,brd,snek)
+	//wwwwwww
 {
 }
 
